@@ -1,7 +1,7 @@
 baseURL = "https://ignasia.netlify.app"
 languageCode = "en-us"
 title = "Ignasia Consulting"
-theme = ""
+
 
 [params]
   description = "Audit, Consulting & Business Process Optimisation"
