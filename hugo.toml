@@ -45,3 +45,6 @@ title = "Ignasia Consulting"
 [module]
   [[module.imports]]
     path = "github.com/McShelby/hugo-theme-relearn"
+
+[params]
+  themeVariant = "neon"
