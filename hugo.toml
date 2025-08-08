@@ -5,8 +5,10 @@ title = "Ignasia Consulting"
 
 [params]
   description = "Audit, Consulting & Business Process Optimisation"
-  author = "Ignasia Consulting"
   themeVariant = "neon"
+
+[params.author]
+  name = "Ignasia Consulting"
 
 [markup]
   [markup.goldmark]
