@@ -1,0 +1,43 @@
+{{ define "main" }}
+<div class="team-page">
+    <div class="container">
+        <header class="page-header">
+            <h1 class="page-title">{{ .Title }}</h1>
+            {{ if .Content }}
+            <div class="page-description">
+                {{ .Content }}
+            </div>
+            {{ end }}
+        </header>
+        
+        <div class="team-grid">
+            {{ range .Pages.ByWeight }}
+            <div class="team-member-card">
+                <div class="member-info">
+                    <h3 class="member-name">
+                        <a href="{{ .Permalink }}">{{ .Title }}</a>
+                    </h3>
+                    {{ if .Params.role }}
+                    <p class="member-role">{{ .Params.role }}</p>
+                    {{ end }}
+                    
+                    {{ if .Params.cert_logos }}
+                    <div class="certifications">
+                        {{ range .Params.cert_logos }}
+                        <img src="{{ printf "/images/certifications/%s" . | relURL }}" alt="Certification" class="cert-logo">
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                    
+                    <div class="member-summary">
+                        {{ .Summary }}
+                    </div>
+                    
+                    <a href="{{ .Permalink }}" class="view-profile">View Full Profile</a>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}

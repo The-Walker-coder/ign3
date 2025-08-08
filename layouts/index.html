@@ -1,0 +1,53 @@
+{{ define "main" }}
+<section class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <h1 class="hero-title">{{ .Params.hero_title | default "Ignasia" }}</h1>
+            <p class="hero-subtitle">{{ .Params.hero_subtitle | default "Audit, Consulting & Business Process Optimisation" }}</p>
+            <div class="hero-description">
+                {{ .Params.hero_description | default .Content | markdownify }}
+            </div>
+            <div class="hero-cta">
+                <a href="{{ "/contact/" | relURL }}" class="btn btn-primary">Get Started</a>
+                <a href="{{ "/services/" | relURL }}" class="btn btn-secondary">Our Services</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ if .Params.why_choose_section }}
+<section class="why-choose">
+    <div class="container">
+        <h2>{{ .Params.why_choose_title | default "Why Choose Ignasia?" }}</h2>
+        <div class="features-grid">
+            {{ range .Params.why_choose_items }}
+            <div class="feature-item">
+                <h3>{{ .title }}</h3>
+                <p>{{ .description | markdownify }}</p>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
+
+{{ if .Params.commitment_section }}
+<section class="commitment">
+    <div class="container">
+        <div class="commitment-content">
+            <h2>{{ .Params.commitment_title | default "Our Commitment to Social Good" }}</h2>
+            <blockquote class="commitment-quote">
+                {{ .Params.commitment_quote | markdownify }}
+            </blockquote>
+            <div class="commitment-description">
+                {{ .Params.commitment_description | markdownify }}
+            </div>
+            <div class="commitment-cta">
+                <a href="{{ "/team/" | relURL }}" class="btn btn-primary">Meet the Team</a>
+                <a href="{{ "/contact/" | relURL }}" class="btn btn-secondary">Contact Us</a>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}

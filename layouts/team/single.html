@@ -1,0 +1,65 @@
+{{ define "main" }}
+<article class="team-member">
+    <div class="container">
+        <header class="member-header">
+            <h1 class="member-name">{{ .Title }}</h1>
+            {{ if .Params.role }}
+            <p class="member-role">{{ .Params.role }}</p>
+            {{ end }}
+        </header>
+        
+        <div class="member-content">
+            {{ if .Params.certifications }}
+            <div class="certifications-section">
+                <h3>Certifications</h3>
+                <ul class="certifications-list">
+                    {{ range .Params.certifications }}
+                    <li>{{ . }}</li>
+                    {{ end }}
+                </ul>
+                
+                {{ if .Params.cert_logos }}
+                <div class="certification-logos">
+                    {{ range .Params.cert_logos }}
+                    <img src="{{ printf "/images/certifications/%s" . | relURL }}" alt="Certification" class="cert-logo">
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
+            {{ end }}
+            
+            {{ if .Params.core_expertise }}
+            <div class="expertise-section">
+                <h3>Core Expertise</h3>
+                <ul class="expertise-list">
+                    {{ range .Params.core_expertise }}
+                    <li>{{ . }}</li>
+                    {{ end }}
+                </ul>
+            </div>
+            {{ end }}
+            
+            <div class="member-bio">
+                {{ .Content }}
+            </div>
+            
+            {{ if .Params.education }}
+            <div class="education-section">
+                <h3>Education</h3>
+                <p>{{ .Params.education }}</p>
+            </div>
+            {{ end }}
+            
+            {{ if .Params.motto }}
+            <blockquote class="member-motto">
+                <p>{{ .Params.motto }}</p>
+            </blockquote>
+            {{ end }}
+        </div>
+        
+        <footer class="member-footer">
+            <a href="{{ "/team/" | relURL }}" class="back-to-team">← Back to Team</a>
+        </footer>
+    </div>
+</article>
+{{ end }}

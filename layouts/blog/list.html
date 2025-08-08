@@ -1,0 +1,40 @@
+{{ define "main" }}
+<div class="blog-list">
+    <div class="container">
+        <header class="page-header">
+            <h1 class="page-title">{{ .Title }}</h1>
+            {{ if .Content }}
+            <div class="page-description">
+                {{ .Content }}
+            </div>
+            {{ end }}
+        </header>
+        
+        <div class="blog-posts">
+            {{ range .Pages.ByWeight }}
+            <article class="blog-preview">
+                <header class="blog-header">
+                    <h2 class="blog-title">
+                        <a href="{{ .Permalink }}">{{ .Title }}</a>
+                    </h2>
+                    <div class="blog-meta">
+                        {{ if .Params.date }}
+                        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+                        {{ end }}
+                        {{ if .Params.author }}
+                        <span class="author">by {{ .Params.author }}</span>
+                        {{ end }}
+                    </div>
+                </header>
+                
+                <div class="blog-summary">
+                    {{ .Summary | truncate 200 }}
+                </div>
+                
+                <a href="{{ .Permalink }}" class="read-more">Read Full Article</a>
+            </article>
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}

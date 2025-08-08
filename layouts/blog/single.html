@@ -1,0 +1,33 @@
+{{ define "main" }}
+<article class="blog-post">
+    <div class="container">
+        <header class="blog-header">
+            <h1 class="blog-title">{{ .Title }}</h1>
+            <div class="blog-meta">
+                {{ if .Params.date }}
+                <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+                {{ end }}
+                {{ if .Params.author }}
+                <span class="author">by {{ .Params.author }}</span>
+                {{ end }}
+            </div>
+        </header>
+        
+        <div class="blog-content">
+            {{ .Content }}
+        </div>
+        
+        <footer class="blog-footer">
+            <div class="blog-navigation">
+                {{ if .PrevInSection }}
+                <a href="{{ .PrevInSection.Permalink }}" class="prev-post">← {{ .PrevInSection.Title }}</a>
+                {{ end }}
+                {{ if .NextInSection }}
+                <a href="{{ .NextInSection.Permalink }}" class="next-post">{{ .NextInSection.Title }} →</a>
+                {{ end }}
+            </div>
+            <a href="{{ "/blog/" | relURL }}" class="back-to-blog">← Back to Blog</a>
+        </footer>
+    </div>
+</article>
+{{ end }}
