@@ -1,0 +1,363 @@
+# Homepage
+
+Ignasia
+Audit, Consulting & Business Process Optimisation
+
+Ignasia Consulting is your global partner in information security, risk management, and organisational transformation.
+
+We empower ambitious organisations to navigate uncertainty, defend against cyber threats, and unlock lasting growth—backed by industry-leading expertise and a passion for making the world a better place.
+
+---
+
+## Why Choose Ignasia?
+
+- **Global Experts:** Our consultants bring real-world, hands-on experience in cybersecurity, GRC, audit, and operational excellence.
+- **Impact-Oriented:** We don’t just tick boxes—we deliver measurable business value and strategic resilience.
+- **Tailored Solutions:** Every engagement is designed around your specific needs, sector, and growth stage.
+- **Trusted Worldwide:** From high-growth startups to established enterprises and mission-driven NGOs, we serve clients across the globe.
+- **Worldwide Acceptance:** Our certified professionals are trusted worldwide. Their qualified opinion and audit reports are accepted by most government bodies (like RBI/IRDAI/SEBI/SEC/FTC) across the world.
+
+---
+
+## Our Commitment to Social Good
+
+> **We exist to create meaningful change — within the organisations and across the society.**  
+> At Ignasia, we know prosperity means nothing unless shared. That’s why we champion causes beyond profit: supporting NGOs, nonprofits, and social innovators with preferential pricing and dedicated support.
+>
+> If your work improves lives or communities, you deserve a partner who believes in your mission as much as you do. Let’s drive change together—smartly, responsibly, ethically.
+
+
+Ready to raise your security, compliance, and impact to new levels?  
+[Meet the Team](/team/) or [Contact Us](/contact/) for a confidential consultation.
+
+
+# About Us
+
+About Ignasia Consulting
+
+Ignasia Consulting is an independent, values-driven consultancy dedicated to strengthening trust, resilience, and positive impact in a rapidly changing world.
+
+Founded by industry veterans, our mission is to help organisations unlock their full potential while navigating the complex landscape of cyber risk, regulatory change, and operational challenges. 
+
+Beyond its team, Ignasia also boasts of a wide and diverse network of professionals and industry experts providing us access to a vast pool of knowledge and skills. 
+
+---
+
+## Our Story
+
+Born out of a desire to blend deep technical expertise with a genuine commitment to societal good, Ignasia Consulting brings together leading professionals from cybersecurity, audit, business process optimisation, and risk management.
+
+We believe in partnership—not just providing advice, but working side by side with our clients to co-create sustainable, effective solutions.
+
+---
+
+## Our Values
+
+- **Integrity:** We stand for honesty, transparency, and ethical leadership.
+- **Excellence:** Every engagement is built on rigorous standards and a commitment to results.
+- **Empathy:** We care about your people, your purpose, and your impact on the world.
+- **Responsibility:** We support organisations that make a difference—social enterprises, NGOs, and businesses committed to positive change.
+
+---
+
+## Why We’re Different
+
+- We fuse proven methodologies with tailored, creative thinking.
+- We serve clients ranging from innovative startups to established global organisations and social ventures.
+- Our team’s collective experience spans diverse sectors and geographies, giving us a unique perspective on modern business risk and opportunity.
+
+---
+
+Ready to see how Ignasia Consulting can help your organisation thrive?  
+[Contact Us](/contact/)
+
+---
+
+
+# Our Services
+
+At IGNASIA Consulting, we deliver governance, risk, and compliance excellence through three core service pillars designed to protect, optimise, and transform your organisation.
+
+## 1. **AUDIT**
+*Independent assurance and certification readiness*
+
+### **ISO 27001 Audit & Certification Services**
+- Gap analysis against ISO 27001:2022 requirements
+- Internal audit services and management reviews
+- Pre-certification readiness assessments
+- External certification support and ongoing surveillance
+- ISMS documentation review and validation
+
+### **Regulatory Compliance Audits**
+- RBI, IRDAI, SEBI compliance assessments
+- DPDP Act and GDPR compliance audits
+- SOC 2 Type I and Type II readiness
+- Third-party vendor security assessments
+- Privacy impact assessments (PIAs)
+
+### **Information Security Audits**
+- Comprehensive security posture assessments
+- Vulnerability assessments and penetration testing readiness
+- Cloud security configuration reviews
+- Access control and privilege management audits
+- Data governance and classification audits
+
+## 2. **CONSULTING**
+*Strategic advisory and implementation services*
+
+### **GRC Strategy & Framework Development**
+- Enterprise risk management program design
+- Governance framework implementation
+- Risk appetite and tolerance definition
+- Board-level risk reporting and dashboards
+- Regulatory horizon scanning and impact analysis
+
+### **Information Security Consulting**
+- Security strategy and roadmap development
+- Threat modelling and risk assessment
+- Security architecture design and review
+- Incident response planning and testing
+- Security awareness program design
+
+### **Data Privacy & Protection Advisory**
+- DPDP Act implementation roadmaps
+- GDPR compliance strategy and gap remediation
+- Privacy by design consulting
+- Cross-border data transfer assessments
+- Data retention and deletion policy development
+
+### **RSA Archer Platform Advisory**
+- Archer platform strategy and roadmap
+- Use case design and optimisation
+- Integration architecture planning
+- Governance model establishment
+- ROI optimisation consulting
+
+## 3. **BUSINESS PROCESS OPTIMIZATION**
+*Operational excellence and automation*
+
+### **RSA Archer Implementation & optimisation**
+- Complete platform deployment and configuration
+- Custom use case development (Risk, Compliance, Audit, TPRM)
+- Workflow automation and integration
+- User training and change management
+- Ongoing managed services and support
+
+### **GRC Process Automation**
+- Risk assessment workflow automation
+- Compliance monitoring and reporting automation
+- Policy management lifecycle optimisation
+- Vendor risk management process streamlining
+- Audit management workflow implementation
+
+### **Business Continuity & Crisis Management**
+- Business impact analysis (BIA) and process mapping
+- BCP/DRP development and testing
+- Crisis communication framework design
+- Supply chain resilience planning
+- Tabletop exercises and simulation training
+
+### **Operational Risk Management**
+- Process risk identification and mapping
+- Key risk indicator (KRI) development
+- Loss event management frameworks
+- Control effectiveness testing automation
+- Operational resilience program design
+
+## **Specialised Programs**
+
+### **For Purpose-Driven organisations**
+- Preferred rate consulting packages
+- Pro-bono risk assessments for select NGOs
+- Social impact measurement frameworks
+- Mission-aligned security strategies
+
+### **Self-Assessment Tools**
+- 25-question GRC maturity assessment
+- ISO 27001 readiness scoring
+- NIST CSF alignment evaluation
+- Instant dashboard and recommendations
+
+**Ready to elevate your risk and compliance posture?**  
+Contact us at **info@ignasia.in** or begin with our complimentary GRC self-assessment.
+
+# Meet Our Expert Team
+
+At IGNASIA Consulting, our strength lies in our people. Our team combines deep technical expertise, premier consulting experience, and a shared commitment to creating a kinder, more secure digital future. Each member brings verified certifications and proven track records that collectively deliver world-class GRC solutions.
+
+## Abhishek Divakar
+**Founder & Director**
+
+Abhishek is the visionary leader behind IGNASIA Consulting, bringing over 12 years of expertise in information security, risk management, and GRC advisory. His journey spans prestigious organisations including PwC India and Wipro's award-winning audit function, where he pioneered innovative security solutions and led enterprise-wide cybersecurity initiatives.
+
+**Certifications:**
+- Certified Information Systems Auditor (CISA)
+- Certified Information Security Manager (CISM)
+- Certified in Risk and Information Systems Control (CRISC)
+- ISO/IEC 27001 Lead Auditor
+- RSA Certified Archer Administrator
+- ICSI-CNSS: Certified Network Security Specialist
+
+**Core Expertise:**
+- Information Security Governance & Risk Management
+- RSA Archer GRC Platform Implementation & Automation
+- Regulatory Compliance (RBI, IRDAI, SEBI, GDPR, DPDP)
+- Digital Forensics and Cyber Law Advisory
+- IT & Business Process Optimisation
+- Creative Problem-Solving
+
+**Education:** MS in Cyber Law and Information Security, B.Tech Computer Science & Engineering
+
+> **Personal Motto:** "Security isn't just about protecting data—it's about enabling organisations to confidently pursue their mission unburdened by fear and doubt."
+
+---
+
+## Shalu Jain
+**Information Security Analyst & RSA Archer Specialist**
+
+Shalu brings over 10 years of enterprise security excellence and GRC platform mastery. Her expertise in RSA Archer development, combined with comprehensive security management experience at Sony and Wipro, makes her instrumental in delivering automated, scalable security solutions.
+
+**Certifications:**
+- Certified Information Security Manager® (CISM)
+- CompTIA Security+ (SY0-601)
+- Certified in Cybersecurity (CC) by (ISC)²
+- ISO/IEC 27001 Lead Auditor
+
+**Core Expertise:**
+- RSA Archer Platform Development & Administration
+- Enterprise Security Architecture
+- Incident Response & Management
+- GRC Process Automation
+- Vulnerability Assessment & Management
+
+**Education:** M.Tech - Information Technology (VIT), BSc Electronics (Delhi University)
+
+> **Personal Motto:** "Complex compliance challenges deserve elegant, automated solutions that empower teams to focus on strategic security outcomes."
+
+---
+
+## Akshita Satish
+**Information Security Analyst & ISO 27001 Specialist**
+
+Akshita represents the next generation of cybersecurity professionals, combining rigorous technical training with creative problem-solving perspectives from her unique multi-domain background. Her fresh approach to traditional security challenges brings innovative solutions to complex GRC requirements.
+
+**Certifications:**
+- ISO 27001:2022 Lead Auditor
+- Certified in Cybersecurity (CC) by (ISC)²
+
+**Core Expertise:**
+- Information Security Management Systems (ISMS)
+- ISO 27001 Implementation & Auditing
+- Risk Assessment & Compliance Management
+- Security Policy Development
+- Creative Problem-Solving for Security Challenges
+
+**Education:** BBA Communication and Media Studies (Whistling Woods International)
+
+> **Personal Motto:** "Security should be intuitive and accessible — when we make it understandable, we make it stronger."
+
+---
+
+## Dolly Kumar
+**Client Relations & Operations Manager**
+
+Dolly drives operational excellence and client success at IGNASIA, bringing entrepreneurial leadership and proven business development expertise. Her experience spans business operations, project management, and strategic growth across multiple industries, with a deep commitment to social impact initiatives.
+
+**Core Expertise:**
+- Business Operations & Process Optimisation
+- Client Relationship Management
+- Project Management & Strategic Planning
+- Revenue Operations & Performance Management
+- Cross-Functional Team Leadership
+- Community Engagement & Social Impact
+
+**Key Achievements:**
+- Founder of Eternity Landscapes (sustainable landscape solutions)
+- ₹1 crore+ monthly revenue generation at Newton School
+- 98% on-time delivery rate across 100+ international projects
+- 25% improvement in customer retention through strategic frameworks
+
+**Education:** B.Com Finance and Human Resources (Mount Carmel College, Bengaluru)
+
+> **Personal Motto:** "Success is measured not just in business outcomes, but in the positive impact we create for our clients and communities."
+
+---
+
+## Our Collective Strength
+
+**Combined Experience:** 35+ years across cybersecurity, risk management, and GRC consulting
+
+**Industry Expertise:**
+- Banking, Financial Services & Insurance (BFSI)
+- Technology and SaaS platforms
+- Energy and manufacturing sectors
+- Healthcare and life sciences
+- Government and regulatory bodies
+
+**Service Excellence:**
+- 99% first-time ISO 27001 certification pass rate
+- 70+ successful implementations across diverse industries
+- Award-winning audit and consulting methodologies
+- Comprehensive regulatory expertise (RBI, IRDAI, SEBI, GDPR, DPDP)
+
+**Our Promise:**
+We combine premier consulting firm excellence with boutique agility, delivering personalised attention and world-class expertise. Our audit-first methodology, social impact focus, and commitment to continuous learning ensure that our clients receive not just compliance, but competitive advantage through superior risk management.
+
+**Ready to work with our expert team?**
+Contact us at **info@ignasia.in** or call **+91 8971 21 2227** to discuss how our combined expertise can strengthen your organisation's security and compliance posture.
+
+---
+
+
+# Social Impact — Building a Kinder, Sustainable, Better Future
+
+At IGNASIA Consulting, our mission extends beyond providing exceptional cybersecurity and GRC services. We believe technology and security should empower organisations to create lasting positive change in society.
+
+##Our Commitment
+We are dedicated to supporting purpose-driven organisations—from NGOs and nonprofits to social enterprises—that strive for a better world. Through our expertise, resources, and partnerships, we enable these organisations to strengthen their cyber-resilience and governance frameworks, so they can focus on what matters most: making an impact.
+
+##What We Offer
+###Preferred Support Programs
+
+We provide tailored consulting packages and services designed specifically for social-impact organisations. These programs give qualifying organisations access to our expert GRC and cybersecurity guidance, with flexible engagement models that respect their unique challenges and resource constraints.
+
+###Pro-Bono & Low-Bono Assessments
+
+For select nonprofit organisations and mission-aligned initiatives, we offer pro-bono or significantly subsidised security assessments. Our goal is to uplift the cyber posture of organisations working for social good, removing barriers to access world-class consulting services.
+
+###Capacity Building & Awareness
+
+We organise workshops, training, and webinars customised for purpose-driven organisations. These programs empower teams with practical knowledge on information security, risk management, and compliance basics—helping them build sustainable security cultures.
+
+###Community & Partnership Engagement
+
+IGNASIA actively seeks partnerships with educational institutions, industry bodies, and social initiatives to co-create security awareness campaigns, research, and collaborative projects that benefit wider communities.
+
+##How to Apply for Support
+If your organisation is a nonprofit, social enterprise, or purpose-driven initiative interested in our Social Impact programs, please get in touch:
+Complete our Free GRC Self-Assessment and identify your key needs.
+Reach out via info@ignasia.in with “Social Impact Program” in the subject line.
+Our team will evaluate your request and work with you to design a mutually beneficial engagement.
+
+##Our Vision for Impact
+We envision a digital ecosystem where all organisations—regardless of size or budget—can operate securely and confidently. By extending our expertise to those dedicated to positive change, we help build a kinder, safer, and more equitable future.
+
+---
+
+# CONTACT US
+
+Contact Us — Let’s Start Your Audit-First GRC Journey
+At IGNASIA Consulting, clear communication is our priority. Whether you’re exploring governance, risk, and compliance solutions or ready to dive into a project, we’re here to support you every step of the way.
+
+Reach out:
+✉️ info@ignasia.in
+📞 +91 8971 21 2227
+🏢 Future Knowledge Labs, Bengaluru 560102, India
+
+Begin with a Free GRC Self-Assessment
+Take our 25-question assessment benchmarking your GRC maturity against ISO 27001, NIST CSF, and CIS Controls. Instant insights and tailored guidance.
+[Start Your Assessment Now]
+
+Supporting Purpose-Driven organisations
+Preferred support rates available for NGOs, nonprofits, social enterprises—mention your mission on contact. If your work aims to improve lives, strengthen communities, or protect our shared future—whether you’re an NGO, nonprofit, social enterprise, or an organisation with purpose—we’d love to explore how we can support your mission.
+

@@ -1,0 +1,151 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: static/images
+public_folder: /images
+
+collections:
+  # Main Pages Collection
+  - name: "main_pages"
+    label: "Main Pages"
+    files:
+      - file: "content/_index.md"
+        label: "Homepage"
+        name: "homepage"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Hero Title", name: "hero_title", widget: "string"}
+          - {label: "Hero Subtitle", name: "hero_subtitle", widget: "string"}
+          - {label: "Hero Description", name: "hero_description", widget: "markdown"}
+          - {label: "Why Choose Section", name: "why_choose_section", widget: "boolean", default: true}
+          - {label: "Why Choose Title", name: "why_choose_title", widget: "string"}
+          - label: "Why Choose Items"
+            name: "why_choose_items"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "markdown"}
+          - {label: "Commitment Section", name: "commitment_section", widget: "boolean", default: true}
+          - {label: "Commitment Title", name: "commitment_title", widget: "string"}
+          - {label: "Commitment Quote", name: "commitment_quote", widget: "markdown"}
+          - {label: "Commitment Description", name: "commitment_description", widget: "markdown"}
+
+      - file: "content/about.md"
+        label: "About Us"
+        name: "about"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Subtitle", name: "subtitle", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+
+      - file: "content/services.md"
+        label: "Services"
+        name: "services"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Subtitle", name: "subtitle", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+
+      - file: "content/social-impact.md"
+        label: "Social Impact"
+        name: "social-impact"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Subtitle", name: "subtitle", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+
+      - file: "content/contact.md"
+        label: "Contact"
+        name: "contact"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Subtitle", name: "subtitle", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+
+      - file: "content/team/_index.md"
+        label: "Team Page"
+        name: "team-page"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+
+      - file: "content/blog/_index.md"
+        label: "Blog Page"
+        name: "blog-page"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+
+  # Team Members Collection
+  - name: "team"
+    label: "Team Members"
+    folder: "content/team"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Name", name: "title", widget: "string"}
+      - {label: "Role", name: "role", widget: "string"}
+      - {label: "Display Order", name: "weight", widget: "number", default: 10, hint: "Lower numbers appear first. Founder should be 1."}
+      - label: "Certifications"
+        name: "certifications"
+        widget: "list"
+        required: false
+        field: {label: "Certification", name: "certification", widget: "string"}
+      - label: "Core Expertise"
+        name: "core_expertise"
+        widget: "list"
+        required: false
+        field: {label: "Expertise", name: "expertise", widget: "string"}
+      - {label: "Education", name: "education", widget: "string", required: false}
+      - {label: "Personal Motto", name: "motto", widget: "text", required: false}
+      - label: "Certification Logos"
+        name: "cert_logos"
+        widget: "list"
+        required: false
+        field: {label: "Logo Filename", name: "logo", widget: "string", hint: "e.g., cisa.png"}
+      - {label: "Biography", name: "body", widget: "markdown"}
+
+  # Blog Posts Collection
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "content/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Display Order", name: "weight", widget: "number", default: 10, hint: "Lower numbers appear first"}
+      - {label: "Featured Image", name: "featured_image", widget: "image", required: false}
+      - {label: "Summary", name: "summary", widget: "text", required: false, hint: "If not provided, first 2 sentences will be used"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  # Generic Pages Collection (for additional pages)
+  - name: "pages"
+    label: "Additional Pages"
+    folder: "content/pages"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  # Site Configuration
+  - name: "config"
+    label: "Site Configuration"
+    files:
+      - file: "hugo.toml"
+        label: "Site Settings"
+        name: "site-settings"
+        fields:
+          - {label: "Site Title", name: "title", widget: "string"}
+          - {label: "Base URL", name: "baseURL", widget: "string"}
+          - {label: "Language Code", name: "languageCode", widget: "string", default: "en-us"}
+          - label: "Site Parameters"
+            name: "params"
+            widget: "object"
+            fields:
+              - {label: "Description", name: "description", widget: "text"}
+              - {label: "Author", name: "author", widget: "string"}
